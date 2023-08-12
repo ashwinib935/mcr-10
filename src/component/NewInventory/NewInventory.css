@@ -1,0 +1,10 @@
+.product-form{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: start;
+    margin-inline: auto;
+}
+.product-form input,select,textarea{
+    margin-left: 0.5rem;
+}

@@ -1,0 +1,33 @@
+.product-header{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0.5rem; */
+}
+table{
+    margin-top: 2rem;
+    border: 1px solid ;
+}
+.tr-head{
+    border: 1px solid;
+    background-color: lightgray;
+    font-weight: bold;
+    padding-block: 0.5rem;
+}
+.tr-body{
+    cursor: pointer;
+    text-align: start;
+}
+.inventory-img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+}
+.btn-new{
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: rgb(36, 185, 235);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+}
+.left-side{
+    width: 10rem;
+    height: 100vh;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.right-side{
+    width: 80vw;
+    height: max-content;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15%;
+    overflow: auto;
+}
+.dashboard-container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 200px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
